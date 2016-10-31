@@ -1,0 +1,11 @@
+[09-Aug-2016 12:52:58 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 8
+[12-Sep-2016 17:14:55 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 8
+[12-Sep-2016 17:14:56 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 9
+[22-Sep-2016 20:59:08 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 8
+[22-Sep-2016 20:59:08 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 9
+[04-Oct-2016 17:29:18 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 8
+[04-Oct-2016 17:29:18 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 9
+[05-Oct-2016 10:03:38 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 8
+[05-Oct-2016 10:03:39 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 9
+[22-Oct-2016 15:37:50 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 8
+[22-Oct-2016 15:37:50 UTC] PHP Warning:  mail(/var/log/php_maillog): failed to open stream: Permission denied in /home/cemedoc/public_html/sendemail.php on line 9
