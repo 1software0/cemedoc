@@ -314,6 +314,17 @@ ul.CEME_spec {
   list-style-image: url(../images/line.png);
 }
 
+h1.seleccion {
+  color: #fff;
+  font-size: 5.5em!important;
+}
+
+@media (max-width: 800px) and (min-width: 300px) {
+  h1.seleccion {
+    font-size: 4em!important;
+  }
+}
+
 /*************************
 ********Service CSS*******
 **************************/
