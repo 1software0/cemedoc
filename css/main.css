@@ -559,6 +559,24 @@ ol li {
 }
 
 /*************************
+******Seleccion CSS*******
+**************************/
+
+#seleccion {
+  background-image: url(../images/slider/fa.png), url(../images/seleccion.jpg);
+  padding: 60px 0;
+}
+#seleccion panel  {
+  color: #000!important;
+}
+#seleccion p, #seleccion li {
+  color: #000!important;
+}
+#seleccion a {
+  text-decoration: none!important;
+}
+
+/*************************
 *********Team CSS*********
 **************************/
 #team {
