@@ -9,6 +9,7 @@
 
 /*************************
 *******Typography******
+
 **************************/
 
 body {
@@ -31,6 +32,44 @@ h2 {
 h3 {
   font-size: 18px;
 }
+
+
+table{
+/*  font-size: 5px;    */
+}
+
+
+#tabla {
+  background-image:   url(../images/about-bg.jpg);
+  padding-bottom: 90px;
+}
+
+.thh{
+  color:black;
+  font-size: 18px;
+}
+
+td{
+   
+}
+
+.tdd{
+  border-right-style: solid;
+}
+
+td{
+  border-top: 1px solid #fff;
+}
+/*
+th {     font-size: 28px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 5px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+*/
+
 
 .call_for {
   margin-top: auto;
