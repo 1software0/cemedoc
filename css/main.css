@@ -40,7 +40,7 @@ table{
 
 
 #tabla {
-  background-image:   url(../images/about-bg.jpg);
+  background-image:   url(../images/slider/fa.png) ,url(../images/about-bg.jpg);
   padding-bottom: 90px;
 }
 
@@ -50,7 +50,7 @@ table{
 }
 
 td{
-   
+
 }
 
 .tdd{
