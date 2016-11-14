@@ -15,6 +15,14 @@ jQuery(function($) {
 		$('#home-slider .item').css('height',slideHeight);
 	});
 
+	//#seleccio-slider
+	var sliderHeight = $(window).height();
+	$('#seleccion-slider .item').css('height',sliderHeight);
+
+	$(window).resize(function(){'use strict',
+		$('#seleccion-slider .item').css('height',sliderHeight);
+	});
+
 	//Scroll Menu
 	$(window).on('scroll', function(){
 		if( $(window).scrollTop()>slideHeight ){
