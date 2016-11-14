@@ -9,7 +9,6 @@
 
 /*************************
 *******Typography******
-
 **************************/
 
 body {
@@ -33,12 +32,6 @@ h3 {
   font-size: 18px;
 }
 
-
-table{
-/*  font-size: 5px;    */
-}
-
-
 #tabla {
   background-image:   url(../images/about-bg.jpg);
   padding-bottom: 90px;
@@ -46,11 +39,6 @@ table{
 
 .thh{
   color:black;
-  font-size: 18px;
-}
-
-td{
-   
 }
 
 .tdd{
