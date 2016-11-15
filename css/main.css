@@ -9,7 +9,6 @@
 
 /*************************
 *******Typography******
-
 **************************/
 
 body {
@@ -38,7 +37,6 @@ table{
 /*  font-size: 5px;    */
 }
 
-
 #tabla {
   background-image:   url(../images/slider/fa.png) ,url(../images/about-bg.jpg);
   padding-bottom: 90px;
@@ -46,11 +44,7 @@ table{
 
 .thh{
   color:black;
-  font-size: 18px;
-}
-
-td{
-   
+  border-top: 1px solid #fff;
 }
 
 .tdd{
@@ -60,6 +54,11 @@ td{
 td{
   border-top: 1px solid #fff;
 }
+
+tr{
+  border-top: 1px solid #fff;	
+}
+
 /*
 th {     font-size: 28px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
     border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
