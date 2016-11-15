@@ -121,6 +121,17 @@ tr:hover td { background: #d0dafd; color: #339; }
   color: #fff;
 }
 
+p.card-text {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+@media screen and (max-width: 1432px) {
+    p.card-text.sp {
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+}
+
 .parallax input[type="text"],
 .parallax input[type="text"]:hover,
 .parallax input[type="email"],
@@ -205,20 +216,11 @@ section {
 /*************************
 ********Home CSS**********
 **************************/
-#home-slider, #seleccion-slider {
+#home-slider {
   overflow: hidden;
   position: relative;
 }
-
-#seleccion-slider {
-  max-height: 90%!important;
-}
-
-#seleccion-slider .caption {
-  padding: auto 200px;
-}
-
-#home-slider .caption, #seleccion-slider .caption {
+#home-slider .caption {
   position: absolute;
   top: 50%;
   margin-top: -154px;
@@ -232,7 +234,7 @@ section {
   color: #000;
 }
 
-#home-slider .caption h1, #seleccion-slider .caption h1{
+#home-slider .caption h1 {
   color: #fff;
   font-size: 60px;
   font-weight: 700;
@@ -240,7 +242,7 @@ section {
   font-family: "Ceme-fontA";
 }
 
-.caption .btn-start, #seleccion-slider .btn-start {
+.caption .btn-start {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -321,11 +323,11 @@ section {
   color: #fff;
 }
 
-#home-slider:hover .left-control, #seleccion-slider:hover .left-control {
+#home-slider:hover .left-control {
   left:30px
 }
 
-#home-slider:hover .right-control, #seleccion-slider:hover .right-control  {
+#home-slider:hover .right-control  {
   right:30px
 }
 
@@ -607,7 +609,7 @@ ol li {
 **************************/
 
 #seleccion {
-  background-image: url(../images/slider/fa.png), url(../images/seleccion.jpg);
+  background-image: url(../images/slider/fa.png), url(../images/seleccion/seleccion.jpg);
   padding: 60px 0;
 }
 #seleccion panel  {
