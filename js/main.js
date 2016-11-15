@@ -4,7 +4,10 @@ jQuery(function($) {
 	var preloader = $('.preloader');
 	$(window).load(function(){
 		preloader.remove();
-		$("#video").attr("src","https://player.vimeo.com/video/144493784?title=0&byline=0&portrait=0");
+		for (var i = 1; i < 13; i++) {
+			$("#video"+i).attr('src',$("#video"+i).attr('data-src'));
+			$("#video"+i).attr('data-src',null);
+		}
 	});
 
 	//#main-slider
@@ -149,29 +152,5 @@ jQuery(function($) {
 		});
 	});
 
-	//Google Map
-	var latitude = $('#google-map').data('latitude')
-	var longitude = $('#google-map').data('longitude')
-	function initialize_map() {
-		var myLatlng = new google.maps.LatLng(latitude,longitude);
-		var mapOptions = {
-			zoom: 14,
-			scrollwheel: false,
-			center: myLatlng
-		};
-		var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-		var contentString = '';
-		var infowindow = new google.maps.InfoWindow({
-			content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
-		});
-		var marker = new google.maps.Marker({
-			position: myLatlng,
-			map: map
-		});
-		google.maps.event.addListener(marker, 'click', function() {
-			infowindow.open(map,marker);
-		});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize_map);
 
 });
