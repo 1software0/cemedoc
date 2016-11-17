@@ -625,7 +625,7 @@ ol li {
 /*************************
 *********Team CSS*********
 **************************/
-#team {
+#team, #jueces {
   padding-top: 0;
 }
 
@@ -693,7 +693,7 @@ ol li {
   background-color: #ff6b00;
 }
 
-#team .img-responsive {
+#team .img-responsive, #jueces .img-responsive {
   width: 100%;
 }
 
@@ -705,6 +705,9 @@ ol li {
   font-size: 14px;
   margin-bottom: 15px;
   color: #999;
+}
+.jueces {
+  margin-bottom: 20px;
 }
 
 
